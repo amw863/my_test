@@ -10,7 +10,7 @@ my first github
 		git pull origin master
 
 		pull之后会与目前线上的分支保持一致
-	1.2, 默认情况下只有master分支才能够直接push到跟踪分支
+	1.2,默认情况下只有master分支才能够直接push到跟踪分支
 		git checkout dev
 		git push origin master 
 		此时push 将不生效
