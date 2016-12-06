@@ -2,4 +2,4 @@
 echo 'hello,world';
 echo 'hi';
 echo 'i am com from master';
-echo 'origin change'
+echo 'origin change 2'
