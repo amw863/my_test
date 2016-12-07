@@ -1,5 +1,5 @@
 # my_test
-my first github 
+my first github; 
 利用git托管代码.
 1,本地仓库master与其他分支的区别:
 	1.1,所有分支都可以指定仓库(主机)/分支进行拉取,如: 
