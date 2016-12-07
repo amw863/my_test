@@ -10,15 +10,19 @@ my first github;
 		git pull origin master
 
 		pull之后会与目前线上的分支保持一致
-	1.2,默认情况下只有master分支才能够直接push到跟踪分支
+	#1.2,默认情况下只有master分支才能够直接push到跟踪分支(这种说话不正确)
+	#1.2,git push <远程主机名> <本地分支名> : <远程分支名> 
+		例如： 
 		git checkout dev
 		git push origin master 
 		此时push 将不生效
+		git push origin dev:master
+		此时生效
 
 		git checkout master
 		git merge dev
 		git push origin master
-		此时才生效
+		此时也生效
 2,关于冲突
 	当不同分支修改同一行代码时将产生冲突;
 	当本地主分支和线上主分支修改同一段代码时将产生冲突;	
