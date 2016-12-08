@@ -32,3 +32,5 @@ my first github;
 	一旦远程主机的版本库有了更新，需要将这些更新取回到本地，可以用该命令;
 	git fetch <远程主机名> ：将远程主机的更新全部取回;
 	git fetch <远程主机名> <分支名>  取回某主机的 某分支;
+4,git pull
+	git pull <远程主机名> <远程分支名> : <本地分支>；例 git pull origin next:master
