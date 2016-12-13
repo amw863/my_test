@@ -1,2 +1,2 @@
 <?php
-echo 'add a new file';
+echo phpinfo();
