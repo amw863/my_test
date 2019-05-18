@@ -1,1 +1,3 @@
-oo
+<?php
+
+echo phpinfo();
